@@ -1,0 +1,12 @@
+the generate_styles.pl script can be used to generate custom style sets
+
+Usage:
+  perl generate_styles.pl <BASECOLOR> <CONTRASTCOLOR> [DEBUG] > OUTFILE.css
+
+
+Example:
+   perl generate_styles.pl 005500 ff0000 > 005500.css
+
+   generates a greenish colorset with red contrast color
+
+   

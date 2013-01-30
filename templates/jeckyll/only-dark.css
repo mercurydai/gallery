@@ -1,0 +1,329 @@
+body {
+	background-color: #191919;
+	color: #ffffff;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 10px;
+	margin: 10px 0px 0px 0px;
+}
+
+td {
+	color: #CCCCCC;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 10px;
+	text-align: left;
+}
+th {
+	font-size: 12px; 
+}
+
+a:link, a:visited, a:active {
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#topspacer {
+	height: 10px;
+}
+
+.even {}
+.odd  {}
+.lent {background-color:#191919;}
+.wanted {background-color:#191919;}
+
+.filter {
+	font-size:10px
+}
+
+.list_title,
+.list_diskid { font-weight:bold; font-size:12px; }
+.list_info { font-style:italic; font-size:10px; }
+.list_seen,
+.list_plot { font-size:10px; }
+
+.tableborder {width:100%; background-color: #ffffff; }
+.tablefilter {width:100%; background-color:#ccccff;  border-bottom: 1px solid #333399; }
+.tablefooter {width:100%; background-color:#ccccff;  border-top: 1px solid #333399; }
+.tablemenu {width:100%; background-color: #333399;}
+
+.show_title {
+	font-size: 18px;
+	font-weight: bolder;
+}
+.show_subtitle,
+.show_id {
+	font-size: 18px; 
+	font-weight: bolder;
+}
+.show_info {
+	background-color:#f0f0f0;  
+	border-bottom: 1px solid #bbbbbb;
+}
+.show_plot {
+	background-color:#f6f6f6;  
+	border-bottom: 1px solid #bbbbbb;
+}
+.notavail {color:#ff0000; font-weight:bold}
+
+.logo, a.logo, a.logo:hover, a.logo:visited {
+	font-size:18px; 
+	font-weight:bolder; 
+	font-style:italic; 
+	text-decoration: none;
+	color:#ffffff;
+	padding-right: 5px;	/* right margin on logo */
+}
+
+.splitbrain,
+.version {
+	font-size: 10px;
+}
+
+.example {font-family:monospace; color:#00cc00;}
+
+.centered {
+	text-align: center;
+}
+
+.center {
+	text-align: center
+}
+
+.tabActive A:visited,
+.tabActive A:link,
+.tabActive A:hover {
+	font-size: 10px; 
+	font-weight:bold; 
+	height: 22px; 
+	border-color:#ffffff #333399 #ffffff #ffffff; 
+	border-style: groove; 
+	border-width: 2px 1px 0px 2px; 
+	padding: 2px 6px 2px 6px; 
+	background-color:#ccccff; 
+	color:#333399; 
+	text-decoration:none;  
+	text-transform: capitalize; 
+} 
+.tabActive A:hover {
+	background-color:#ccccff;
+	color:#6666cc;
+}
+
+.tabInactive A,
+.tabInactive A:visited,
+.tabInactive A:link,
+.tabInactive A:hover {
+	font-size: 10px; 
+	font-weight: bold; 
+	height: 18px; 
+	border-color: #ccccff #333399 #ccccff #ccccff; 
+	border-style: groove; 
+	border-width: 2px 1px 0px 2px ;
+	margin: 4px 0px 0px 0px;
+	padding: 0px 6px 0px 6px;
+	background-color:#6666cc; 
+	color:#ffffff; 
+	text-decoration: none;  
+	text-transform: capitalize;
+} 
+.tabInactive A:hover {
+	background-color:#ccccff;
+	color:#6666cc;
+}
+
+.filterlink A,
+.filterlink A:visited,
+.filterlink A:link,
+.filterlink A:hover,
+.filterlink {
+	font-weight:bold;
+	color:#333399;
+	text-transform: capitalize;
+}
+
+form {
+	margin: 0px;
+}
+
+input, select, textarea {
+	font-size: 10px;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	background-color: #191919;
+	color: #ffffff;
+	border: #999999 1px inset;
+}
+
+input.button {
+	text-transform: capitalize;
+	font-size: 10px; 
+}
+
+.caption,
+.editcaption {
+	text-transform: capitalize;
+}
+.caption {
+	font-weight: bold;
+}
+
+/* special formatings for stuff in the helpbrowser */
+.helpbrowser code {font-family:monospace; color:#004444;}
+.helpbrowser td {background-color:#EEEEEE;}
+.helpbrowser th {background-color:#EEEEEE;}
+.helpbrowser h1 {text-align:center; font-size:15pt; font-weight:bolder;}
+.helpbrowser h2 {margin-left:10px; font-size:13pt; font-weight:bolder;}
+.helpbrowser h3 {margin-left:30px; font-size:11pt; font-weight:bolder; font-variant:small-caps}
+.helpbrowser p  {text-align:justify; margin-left:50px; width:90%}
+.helpbrowser pre {margin-left:50px; font-family:monospace; color:#004444;}
+.helpbrowser ul {margin-left:50px; width:90%}
+.helpbrowser dl {margin-left:50px; width:90%}
+.helpbrowser dd {margin-bottom:10px;}
+.helpbrowser table  {margin-left:50px; width:90%}
+
+.forumheader3 {
+        background-color: #191919;
+	//#404040;
+        font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+        color: #CCCCCC;
+	//#ffffff;
+        padding: 2px;
+        border: #666666 1px solid;
+}
+
+.button{
+        border: 1px solid #5E5D63;
+        color: #CCCCCC;
+        font: normal 9px verdana, tahoma, arial, helvetica, sans-serif;
+        text-align:center;
+        background-image : url(images/button.png);
+	cursor: pointer;
+}
+
+.divbutton{
+        border: 1px solid #5E5D63;
+        color: #CCCCCC;
+        font: normal 9px verdana, tahoma, arial, helvetica, sans-serif;
+        text-align:center;
+        background-image : url(images/button.png);
+	text-transform: capitalize;
+	height: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+}
+.fcaption {
+        font-family:  helvetica, verdana, tahoma, arial;
+        font-size: 10px;
+        color: #ffffff;
+        padding: 1px;
+        font-weight: bolder;
+        border: 1px solid #666666;
+        background-color: #990000;
+}
+.imdb {
+		background-color: #ffffff;
+		color: #000000;
+		font-family: times;
+}
+.imdb a {
+		color: blue;
+}
+.imdb p {
+		font-family: times;
+		color: #000000;
+}
+
+/* lookup.tpl thumbnail formatting */
+.thumbnail
+{
+	float: left;
+	margin: 5px;
+}
+
+/* Default DOM Tooltip Style */
+div.domTT {
+    border: 1px solid #666666;
+}
+div.domTTCaption {
+    font-family: serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 2px;
+    color: #FFFFFF;
+    background-color: #191919;
+}
+div.domTTContent {
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 3px 2px;
+    background-color: #191919;
+}
+/* Classic Style */
+div.domTTClassic {
+    border: 1px solid #66666;
+    background-color: #191919;
+}
+div.domTTClassicCaption {
+    font-family: serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1px 2px;
+}
+div.domTTClassicContent {
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 3px 2px;
+    background-color: #191919;
+}
+/* Win9x Style */
+div.domTTWin {
+  border: 2px outset #666666;
+  background-color: #191919;
+}
+div.domTTWinCaption {
+  border: 0px solid #666666;
+  border-width: 1px 1px 0px 1px;
+  background-color: #191919;
+  padding: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+div.domTTWinContent {
+  border: 1px solid #666666;
+}
+/* Overlib Style */
+div.domTTOverlib {
+    border: 1px solid #666666;
+}
+div.domTTOverlibCaption {
+    font-family: Verdana, Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #191919;
+}
+div.domTTOverlibContent {
+    font-size: 10px;
+    font-family: Verdana, Helvetica;
+    padding: 2px;
+    background-color: #191919;
+}
+div.domTTMenu {
+  width: 150px;
+  border: 2px outset #666666;
+}
+div.domTTMenuCaption {
+  font-size: 12px;
+  font-family: sans-serif;
+  background-color: #191919;
+}
+div.domTTMenuContent {
+  padding: 1px 0;
+  background-color: #191919;
+}
